@@ -1,23 +1,60 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 
 body {
-  font-family: "Josefin-Sans", sans-serif;
+  font-family: "josefin sans", sans-serif;
   font-size: 14px;
+}
+
+header {
+  font-family: "josefin sans", sans-serif;
+  font-size: 16px;
+}
+
+footer {
+  padding-top: 60px;
+  margin-top: 40px;
+}
+
+#name {
+padding-bottom: 80px;
 }
 
 /* navigation styles */
 
 nav {
-  padding-top: 30px;
-  padding-bottom: 50px;
   width: 100px;
   display: inline;
   text-align: center;
-  margin-bottom: 10px;
+  font-family:, sans-serif;
+  font-size: 14px;
 }
 
 nav li {
   display: inline;
-  padding-right: 10px;
-  margin-right: 10px;
+  padding-right: 20px;
+  margin-right: 20px;
+  font-family: "josefin sans", sans-serif;
+  font-size: 18px;
+}
+
+/* link styles */
+
+a:link,a:hover,a:visited,a:active {
+  text-decoration: none;
+}
+
+a:link {
+  color: #90a9d2; /* pantone serenity (periwinkle purple/blue) */
+}
+
+a:hover {
+  color: #f4cbc7; /* pantone rose quartz (dusty pink) */
+}
+
+a:visited {
+  color: #bdc8db; /* lighter version of periwinkle link color */
+}
+
+a:active {
+  color: #bed5bb; /* pastel green */
 }
